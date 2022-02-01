@@ -5,14 +5,11 @@ using namespace std;
 
 int main()
 {
-    int light_x; // the X position of the light of power
-    int light_y; // the Y position of the light of power
-    int initial_tx; // Thor's starting X position
-    int initial_ty; // Thor's starting Y position
+    int light_x, light_y, initial_tx, initial_ty;
     cin >> light_x >> light_y >> initial_tx >> initial_ty; cin.ignore();
 
     while (1) {
-        int remaining_turns; // The remaining amount of turns Thor can move. Do not remove this line.
+        int remaining_turns;
         cin >> remaining_turns; cin.ignore();
 
         string direction = "";
